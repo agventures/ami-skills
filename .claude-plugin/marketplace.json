@@ -1,0 +1,20 @@
+{
+  "name": "ami-skills",
+  "description": "Skills de Ami para agentes de programación",
+  "owner": {
+    "name": "Ami",
+    "url": "https://amiagente.com"
+  },
+  "plugins": [
+    {
+      "name": "ami-storefront",
+      "description": "Construye una tienda en línea propia que vende con Ami a través de la API de tiendas: catálogo, carrito, cotización, pedidos con pago en la página de Ami, citas, reservas, suscripciones y webhooks.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/ami-storefront"],
+      "homepage": "https://docs.amiagente.com/docs/agentes",
+      "repository": "https://github.com/agventures/ami-skills",
+      "license": "MIT"
+    }
+  ]
+}
